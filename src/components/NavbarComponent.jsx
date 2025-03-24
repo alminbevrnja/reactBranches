@@ -16,7 +16,7 @@ function NavbarComponent({ activeDark, setActiveDark }) {
 	}
 
 	return (
-		<div className='container mx-auto flex h-24 bg-lightGray dark:bg-mainBlue items-center justify-between px-3'>
+		<div className='container mx-auto flex h-24 bg-lightGray dark:bg-mainBlue items-center justify-between px-4 lg:px-20'>
 			<h1 className='text-mainBlue dark:text-white font-bold text-2xl dark:text-blue-500'>
 				LOGO
 			</h1>
