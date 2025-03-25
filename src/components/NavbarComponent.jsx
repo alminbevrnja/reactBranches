@@ -11,16 +11,14 @@ import { IoIosSunny } from 'react-icons/io';
 
 function NavbarComponent({ activeDark, setActiveDark }) {
 	let navItems = ['Home', 'About', 'Contact' ];
-	function handleTheme() {
-		setActiveDark(!activeDark);
-	}
+	
 
 	return (
-		<div className='container mx-auto flex h-24 bg-lightGray dark:bg-mainBlue items-center justify-between px-4 lg:px-20'>
-			<h1 className='text-mainBlue dark:text-white font-bold text-2xl dark:text-blue-500'>
-				LOGO
+		<div className='container mx-auto flex h-24 bg-lightGray dark:bg-mainBlue items-center justify-between px-4 border-b lg:px-20'>
+			<h1 className='text-mainBlue dark:text-white font-bold text-2xl '>
+				IMMODEV
 			</h1>
-			<div className='flex items-center gap-4'>
+			<div className='flex items-center gap-4 '>
 				{navItems.map((item, index) => {
 					return (
 						<ul className='text-mainBlue dark:text-white'>
@@ -36,13 +34,13 @@ function NavbarComponent({ activeDark, setActiveDark }) {
 							className='cursor-pointer'
 							color='yellow'
 							size={30}
-							onClick={handleTheme}
+							onClick={() => setActiveDark(!activeDark)}
 						/>
 					) : (
 						<FaMoon
 							className='cursor-pointer'
 							size={25}
-							onClick={handleTheme}
+							onClick={() => setActiveDark(!activeDark)}
 						/>
 					)}
 				</div>
