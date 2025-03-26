@@ -44,10 +44,10 @@ function NewsComponent() {
 
      <div className='px-5 '>
           <div className='h-40 border dark:text-lightGray dark:bg-lightGray container mx-auto mt-20 flex flex-col gap-5 items-center justify-center '>
-          <h2 className='text-xl font-semibold lg:text-2xl'>Subs our Newsletter for daily Update</h2>
+          <h2 className='text-xl font-semibold dark:text-mainBlue lg:text-2xl'>Subs our Newsletter for daily Update</h2>
           <div className='flex flex-col gap-3 md:flex-row md:relative '>
-          <input type="text" placeholder='Please fill this field...' className='p-2 outline-none rounded-md focus:outline-cyan-400 md:w-[300px] md:border-mainBlue dark:md:bg-mainBlue lg:w-[400px] '/>
-          <button type='submit' className='bg-mainBlue p-2 rounded-md hover:bg-cyan-500 transition-all duration-150 text-lightGray dark:bg-lightGray hover:dark:bg-cyan-400 dark:text-mainBlue md:border-mainBlue md:dark:bg-cyan-400 md:absolute top-0 right-0'>Subscribe</button>
+          <input type="text" placeholder='Please fill this field...' className='p-2 outline-none rounded-md focus:outline-cyan-400 dark:bg-mainBlue md:w-[300px] md:border-mainBlue dark:md:bg-mainBlue lg:w-[400px] '/>
+          <button type='submit' className='bg-mainBlue p-2 rounded-md hover:bg-cyan-500 transition-all duration-150 text-lightGray dark:bg-lightGray hover:dark:bg-cyan-400 dark:text-mainBlue dark:border dark:border-mainBlue md:border-mainBlue md:dark:bg-cyan-400 md:absolute top-0 right-0'>Subscribe</button>
           </div>
           </div>
      </div>

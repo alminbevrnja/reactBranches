@@ -4,6 +4,7 @@ import FeatureComponent from '../components/FeatureComponent'
 import CustomersComponent from '../components/CustomersComponent'
 import NewsComponent from '../components/NewsComponent'
 import FooterComponent from '../components/FooterComponent'
+import FooterBottom from '../components/FooterBottom'
 
 
 function HomePage() {
@@ -14,6 +15,7 @@ function HomePage() {
       <CustomersComponent/>
       <NewsComponent/>
       <FooterComponent/>
+      <FooterBottom/>
     </div>
   )
 }
